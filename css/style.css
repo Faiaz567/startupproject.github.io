@@ -1,0 +1,624 @@
+/****************************************************
+****************Global Css Start*******************
+***************************************************/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/****************************************************
+****************Global Css End*******************
+***************************************************/
+
+/****************************************************
+****************header-section css start************
+***************************************************/
+.header-section{
+	width: 100%;
+	height: 780px;
+	background: url(../images/bg.png) center top no-repeat;
+	background-size: cover;
+
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	font-family: 'Montserrat';
+}
+.navbar-light .navbar-nav .nav-link:hover{
+
+}
+.banner-section .banner-inner h1{
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px;
+
+}
+.banner-section .banner-inner p{
+	color: #fff;
+	font-weight: 300;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.banner-section .banner-inner{
+	margin-top: 100px;
+	margin-left: 15px;
+
+}
+.banner-section .banner-inner .banner-btn .btn-info{
+padding: 10px 30px;
+background: #fff;
+color: #e75b4c;
+border: 1px solid;
+border-radius: 30px;
+font-weight: 600;
+margin-right: 15px;
+font-size: 12px;
+}
+.banner-section .banner-inner .banner-btn .btn-info:hover{
+	background: #e75b4c;
+color: #fff;
+}
+.banner-section .banner-inner .banner-btn .btn-primary{
+padding: 10px 30px;
+color: #fff;
+font-weight: 600;
+border-radius: 30px;
+font-size: 12px;
+
+}
+
+.card-section{
+	width: 100%;
+
+}
+.card-section .card-inner{
+	padding: 40px 25px;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	margin-left: 20px;
+	box-shadow: -7px 15px 30px 2px #e75b4c;
+	margin-top: 180px;
+
+
+}
+.card-section .card-inner img{
+	width: 22%;
+	margin-bottom: 15px;
+
+}
+.card-section .card-inner h3{
+	color: #e75b4c;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+.card-section .card-inner p{
+	color: #b9b8b7;
+	font-size: 13px;
+	font-weight: 500;
+	margin-bottom: 20px;
+
+}
+.card-section .card-inner a{
+	color: #b9b8b7;
+}
+.card-section .card-inner a:hover{
+	color: #e75b4c;
+}
+
+
+
+/****************************************************
+****************header-section css end************
+***************************************************/
+
+/****************************************************
+****************timeline-section css start************
+***************************************************/
+.timeline-section{
+	width: 100%;
+	padding: 220px 0px 80px;
+}
+.timeline-section .timeline{
+	
+	margin: 30px 10px;
+	border-left: 5px solid #eee;
+	padding: 0px 40px ;
+	position: relative;
+}
+.timeline-section .timeline .timeline-inner .fa{
+	width: 50px;
+	height: 50px;
+	padding: 9px 10px;
+	border-radius: 50%;
+	background: #eee;
+	border: 3px solid #eee;
+	font-size: 25px;
+	color:#e75b4c; 
+	position: absolute;
+	left: -5%;
+
+
+}
+.timeline-section .timeline .timeline-inner:hover .fa{
+	background: #e75b4c;
+	color: #fff;
+	border: 1px solid #e75b4c;
+}
+
+
+.timeline-section .timeline .timeline-inner h4{
+	    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+   
+    padding: 12px 0px;
+
+}
+.timeline-section .timeline .timeline-inner  h4:hover{
+	color:  #e75b4c;
+}
+.timeline-section .timeline .timeline-inner p{
+	color: #b9b8b7;
+	font-size: 12px;
+}
+.timeline-img img{
+	width: 104%;
+}
+/****************************************************
+****************timeline-section css end************
+***************************************************/
+
+/****************************************************
+****************feature-section css start************
+***************************************************/
+.feature-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature-section .feature-right-inner1{
+	width: 100%;
+	margin-top: 30px;
+}
+.feature-section .feature-right-inner1 h3{
+	color:  #e75b4c;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+
+}
+.feature-section .feature-right-inner1 p{
+color: #b9b8b7;
+font-size: 12px;
+}
+.feature-section .feature-right-inner2 {
+width: 100%;
+margin-top: 40px;
+}
+.feature-section .feature-right-inner2 img{
+	margin-right: 10px;
+}
+.feature-section .feature-right-inner2 ul li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.feature-section .feature-right-inner2  h5{
+	color: #b9b8b7;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.feature-section .feature-right-inner3 {
+width: 100%;
+margin-top: 40px;
+margin-left: -50px;
+}
+.feature-section .feature-right-inner3 ul li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.feature-section .feature-right-inner3  h5{
+	color: #b9b8b7;
+	font-size: 13px;
+	font-weight: 500;
+}
+.feature-section .feature-right-inner3 img{
+	margin-right: 10px;
+}
+
+
+/****************************************************
+****************feature-section css end************
+***************************************************/
+
+/****************************************************
+****************price-section css start************
+***************************************************/
+.price-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.price-section .price-title{
+	width: 100%;
+	margin-bottom: 70px;
+}
+.price-section .price-title h3{
+color:#e75b4c;
+font-size: 25px;
+font-weight: 600;
+}
+.price-section .price-title p{
+color: #b9b8b7;
+font-size: 13px;
+font-weight: 500;
+margin-top: 15px;
+}
+.price-section .price-card{
+	width: 100%;
+	padding:40px 30px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	box-shadow: 1px 2px 39px 6px rgba(0,0,0,0.13);
+
+}
+.price-section .price-card h5{
+	text-align: center;
+	font-size: 18px;
+	color: #e75b4c;
+	font-weight: 700;
+}
+.price-section .price-card h6{
+	text-align: center;
+	font-size: 16px;
+	color: #b9b8b7;
+	font-weight: 700;
+	margin-top: 10px;
+}
+.price-section .price-service {
+	width: 100%;
+	margin-top: 30px;
+	padding: 0px 30px;
+}
+.price-section .price-service ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.price-section .price-service h5{
+	text-align: left;
+	color: #b9b8b7;
+	font-size: 15px;
+	font-weight: 500;
+
+}
+.price-section .price-service img{
+	margin-right: 10px;
+}
+.price-section .price-service .price-btn{
+	width: 100%;
+	margin-top: 40px;
+	margin-left: 40px;
+
+}
+.price-section .price-service .price-btn .btn-primary{
+	padding: 10px 40px;
+	background: #b9b8b7;
+	border: 1px solid #b9b8b7;
+	border-radius: 30px;
+}
+.price-section .price-service .price-btn .btn-primary:hover{
+	background: #e75b4c;
+	border: 2px solid #fff;
+}
+
+/****************************************************
+****************price-section css end************
+***************************************************/
+
+/****************************************************
+****************sheild-section css start************
+***************************************************/
+.sheild-section{
+	width: 100%;
+	padding: 200px 0px;
+	margin-top: 100px;
+	background: url(../images/sheild.png) center top no-repeat;
+	background-size: ;
+}
+
+.sheild-section .sheild-left-inner1{
+	width: 100%;
+	margin-left: -30%;
+    margin-top: -31%;
+
+}
+.sheild-section .sheild-left-inner1 h4{
+	font-size: 17px;
+	font-weight: 600;
+}
+.sheild-section .sheild-left-inner1 p{
+font-size: 10px;
+color: #b9b8b7;
+font-weight: 600;
+}
+.sheild-section .sheild-left-inner2{
+	width: 100%;
+	    margin-top: 213px;
+    margin-left: -157px;
+}
+.sheild-section .sheild-left-inner2 h4{
+	font-size: 17px;
+	font-weight: 600;
+}
+.sheild-section .sheild-left-inner2 p{
+font-size: 10px;
+color: #b9b8b7;
+font-weight: 600;
+}
+.sheild-section .sheild-left-inner3{
+	width: 100%;
+	margin-top: -39%;
+    margin-left: 11%;
+
+}
+.sheild-section .sheild-left-inner3 h4{
+font-size: 17px;
+	font-weight: 600;
+}
+.sheild-section .sheild-left-inner3 p{
+	font-size: 10px;
+color: #b9b8b7;
+font-weight: 600;
+}
+.sheild-section .sheild-left-inner4{
+	width: 100%;
+	    margin-top: 36%;
+    margin-left: 12%;
+
+}
+.sheild-section .sheild-left-inner4 h4{
+font-size: 17px;
+	font-weight: 600;
+}
+.sheild-section .sheild-left-inner4 p{
+	font-size: 10px;
+color: #b9b8b7;
+font-weight: 600;
+}
+
+
+/****************************************************
+****************sheild-section css end************
+***************************************************/
+
+/****************************************************
+****************testimonial-section css start************
+***************************************************/
+.testimonial-section{
+	width: 100%;
+	padding: 80px 0px;
+
+	
+	
+}
+.testimonial-left-inner{
+	width: 100%;
+}
+.testimonial-left-inner h3{
+	color: #e75b4c;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+.testimonial-left-inner p{
+	font-size: 13px;
+	color: #b9b8b7;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.testimonial-left-inner .btn-info{
+	padding: 10px 25px;
+	background: #e75b4c;
+	border: 1px solid #e75b4c;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 20px;
+
+}
+.testimonial-left-inner .btn-info:hover{
+	color: #e75b4c;
+	background: #fff;
+	border: 2px solid #e75b4c;
+}
+
+
+
+.testimonial-right-inner{
+	width: 100%;
+	height: 400px;
+}
+
+
+.testimonial-right-inner img{
+	width: 118%;
+	margin-top: -26%;
+}
+.testimonial-right-inner2 .media {
+	width:100%;
+	padding: 30px 20px;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	margin-top: -75%;
+	margin-left: 15%;
+}
+.testimonial-right-inner2 .media img{
+	width: 10%;
+	margin-top: 0%;
+}
+.testimonial-right-inner2 .media-body{
+	margin-top: 
+}
+.testimonial-right-inner2 .media-body h5{
+	color: #e75b4c;
+	font-size: 15px;
+	font-weight: 600;
+
+}
+.testimonial-right-inner2 .media-body h5 span{
+	color: #b9b8b7;
+	font-size: 12px;
+	
+}
+.testimonial-right-inner2 .media-body p{
+	color: #b9b8b7;
+	font-weight: 600;
+	font-size: 12px;
+}
+/****************************************************
+****************testimonial-section css end************
+***************************************************/
+
+/****************************************************
+****************news-section css start************
+***************************************************/
+.news-section{
+	width: 100%;
+	padding: 50px 0px 80px;
+}
+.news-section .news-title{
+	width: 100%;
+	margin-bottom: 70px;
+}
+.news-section .news-title h2{
+	color:#e75b4c;
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.news-section .news-title p{
+	color: #b9b8b7;
+	margin-bottom: 30px;
+}
+.news-section .news-inner{
+	width: 100%;
+}
+.news-section .news-inner .card-title{
+	font-size: 15px;
+	line-height: 20px;
+	color:#e75b4c;
+	font-weight: 600;
+
+}
+.news-section .news-inner .card-body a{
+	color: #b9b8b7;
+}
+.news-section .news-inner .card-body a:hover{
+	color: #e75b4c;
+	font-weight: 600;
+}
+/****************************************************
+****************news-section css end************
+***************************************************/
+
+/****************************************************
+****************footer-section css start************
+***************************************************/
+.footer-section{
+	width: 100%;
+	padding: 80px 0px 0px;
+}
+.footer-section .footer-left-inner1{
+	width: 100%;
+}
+.footer-section .footer-left-inner1 img{
+	width: 110%;
+	margin-left: -20%;
+}
+.footer-section .footer-left-inner2{
+	width: 100%;
+	margin-top: -35%;
+	margin-left: 20%;
+}
+.footer-section .footer-left-inner2 h3{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600;
+	margin-left: 15px;
+}
+.footer-section .footer-left-inner2 .footer-form{
+	width: 100%;
+	margin-top: 20px;
+
+}
+.footer-section .footer-left-inner2 .footer-form ul li{
+	list-style: none;
+	display: inline-block;
+}
+.form-control{
+ width: 152%;
+    height: calc(-0.5em + 3.75rem + 0px);
+    padding: 1.375rem .75rem;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #fff;
+}
+   
+.footer-section .footer-left-inner2 .footer-form .btn-info{
+	padding: 8px 35px;
+	border-radius: 30px;
+	margin-left: -20px;
+	margin-top: -4px;
+	background: #e75b4c;
+	font-size: 14px;
+	font-weight: 600;
+	border: 1px solid  #e75b4c;
+
+}
+.footer-section .footer-left-inner2 .footer-form .btn-info:hover{
+	background: #fff;
+	color: #e75b4c;
+	border: 2px solid #e75b4c;
+}
+
+
+
+.footer-section .footer-right-inner{
+	width: 100%;
+	margin-top: 80%;
+}
+.footer-section .footer-right-inner ul li{
+	list-style: none;
+	margin-bottom: 15px;
+}
+.footer-section .footer-right-inner ul li a{
+	color: #b9b8b7;
+	font-weight: 500;
+}
+.footer-section .footer-right-inner ul li a:hover{
+	color:#e75b4c; 
+}
+
+
+/***********************************************
+****************footer-section css end************
+***************************************************/
